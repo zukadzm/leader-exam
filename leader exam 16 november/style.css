@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    margin-left: 600px;
+    margin-top: 100px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+button {
+    width: 120px;
+    height: 25px;
+    background-color: rgb(0, 255, 162);
+    color: white;
+    border-radius: 12px;
+    border: none;
+}
+
+button:hover {
+    border: 2px solid black;
+}
+
+li {
+    margin-top: 12px;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+    background-color: darkgreen;
+}
+
+body {
+    background-color: gray;
+}
+
+.navbar h1 {
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+}

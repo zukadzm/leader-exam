@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+button {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(243, 231, 223);
+}
+
+.firstContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: -255px;
+    margin-top: 100px;
+}
+
+.p1 {
+    font-weight: 900;
+    font-size: 35px;
+    color: rgb(177, 12, 12);
+
+    position: absolute;
+    top: 28px;
+    left: 200px;
+}
+
+.div1C1 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-waffle-desktop.jpg);
+    background-size: cover;
+}
+
+.div2C1 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+
+    border-radius: 15px;
+    background-image: url(assets/images/image-creme-brulee-desktop.jpg);
+    background-size: cover;
+}
+
+.div3C1 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-macaron-desktop.jpg);
+    background-size: cover;
+}
+
+
+.secondContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: -255px;
+    margin-top: 50px;
+}
+
+.div1C2 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-tiramisu-desktop.jpg);
+    background-size: cover;
+}
+
+.div2C2 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-baklava-desktop.jpg);
+    background-size: cover;
+}
+
+.div3C2 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-meringue-desktop.jpg);
+    background-size: cover;
+}
+
+.ThirdContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: -255px;
+    margin-top: 50px;
+
+}
+
+.div1C3 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-cake-desktop.jpg);
+    background-size: cover;
+}
+
+.div2C3 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-brownie-desktop.jpg);
+    background-size: cover;
+}
+
+.div3C3 {
+    width: 275px;
+    height: 275px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    background-image: url(assets/images/image-panna-cotta-desktop.jpg);
+    background-size: cover;
+}
+
+
+/* buttons */
+
+.firstButtonC1 {
+    margin-top: 248px;
+    margin-left: 80px;
+    width: 135px;
+    height: 45px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.secondButtonC1 {
+    margin-top: 248px;
+    margin-left: 80px;
+    width: 135px;
+    height: 45px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.thirdButtonC1 {
+    margin-top: 248px;
+    margin-left: 80px;
+    width: 135px;
+    height: 45px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* cart */
+
+.cartDiv {
+    width: 350px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    right: 65px;
+
+    color: rgba(239, 164, 26, 0.947);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.cartDivPs {
+    font-size: 10px;
+    color: black;
+    margin-left: 10px;
+}
+
+.Order {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.subm {
+    width: 185px;
+    height: 32px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: orangered;
+    color: white;
+    margin-left: 95px;
+    margin-top: 55px;
+}
